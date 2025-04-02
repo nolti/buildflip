@@ -21,7 +21,7 @@ export default {
         'dracula-yellow': '#f1fa8c', // Yellow
       },
       fontFamily: {
-        sans: ['Montserrat', 'sans'],
+        sans: ['Roboto', 'sans'],
       },
       fontWeight: {
         normal: '100',
