@@ -41,7 +41,7 @@ export const Hero = () => {
 
       <div className="container relative z-10">
         <div className="max-w-3xl">
-          <h1 className="text-9x1 sm:text-9xl md:text-7xl font-semibold mb-4">
+          <h1 className="text-9x1 sm:text-9xl md:text-3xl font-semibold mb-4">
             Transformamos propiedades en sueños rentables!
           </h1>
           <p className="text-x1 sm:text-9xl md:text-4x1 mb-4 text-secondary">
