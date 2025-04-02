@@ -34,13 +34,13 @@ export const Services = () => {
 
   return (
     <>
-      <div className="h-px bg-gray-200 dark:bg-gray-800 w-full" />
+      <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
       <section id="services" className="py-12 bg-violet-200 dark:bg-[#282a36]">
         <div className="container">
           <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-draculacyan">
             Nuestro Proceso
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 mb-8 text-lg">
+          <p className="text-draculaselect dark:text-draculacyangrey mb-8 text-lg">
             Guía paso a paso para maximizar tu inversión
           </p>
 
@@ -179,7 +179,7 @@ export const Services = () => {
           </div>
         </div>
       </section>
-      <div className="h-px bg-gray-200 dark:bg-gray-800 w-full" />
+      <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
     </>
   );
 };

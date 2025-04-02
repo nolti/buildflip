@@ -124,7 +124,7 @@ export const Projects = () => {
 
   return (
     <>
-      <div className="h-px bg-gray-200 dark:bg-gray-800 w-full" />
+      <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
       <section id="projects" className="py-12">
         <div className="container">
           <div className="flex flex-col items-start mb-12">
@@ -163,7 +163,7 @@ export const Projects = () => {
           </div>
         </div>
       </section>
-      <div className="h-px bg-gray-200 dark:bg-gray-800 w-full" />
+      <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
 
       <Modal
         isOpen={selectedProject !== null}

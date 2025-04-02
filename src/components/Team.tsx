@@ -58,7 +58,7 @@ export const Team = () => {
           {team.map((member, index) => (
             <motion.div
               key={index}
-              className="bg-white dark:bg-[#282a36] rounded-3xl p-6 border-2 border-primary shadow-[0_8px_0_0] shadow-primary/50"
+              className="bg-indigo-100 dark:bg-[#282a36] rounded-3xl p-6 border-2 border-mdsecondarycontainer/50 dark:border-primary shadow-[-2px_8px_0_0] shadow-mdsecondarycontainer/70 dark:shadow-primary-dark/70"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -77,17 +77,17 @@ export const Team = () => {
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute top-0 right-0 w-10 h-10 bg-primary rounded-full flex items-center justify-center transition-transform hover:scale-110"
+                  className="absolute top-0 right-0 w-10 h-10 bg-linkedin rounded-full flex items-center justify-center transition-transform hover:scale-110"
                 >
                   <LinkedInIcon />
                 </a>
               </div>
 
-              <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
+              <h3 className="text-xl font-semibold mb-2 text-mdonsecondary dark:text-white">
                 {member.name}
               </h3>
-              <p className="text-primary font-medium mb-4">{member.role}</p>
-              <p className="text-gray-700 dark:text-gray-300 text-sm">
+              <p className="text-mdonprimary dark:text-primary font-medium mb-4">{member.role}</p>
+              <p className="text-mdonsecondary dark:text-gray-300 text-sm">
                 {member.description}
               </p>
             </motion.div>
