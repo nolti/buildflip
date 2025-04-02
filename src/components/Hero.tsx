@@ -41,10 +41,10 @@ export const Hero = () => {
 
       <div className="container relative z-10">
         <div className="max-w-3xl">
-          <h1 className="text-9x1 md:text-5xl font-semibold mb-4">
+          <h1 className="text-9x1 md:text-7xl font-semibold mb-4">
             Transformamos propiedades en sueños rentables!
           </h1>
-          <p className="text-base md:text-3x1 mb-4 text-secondary">
+          <p className="text-x1 md:text-4x1 mb-4 text-secondary">
             ¿Querés renovar para vender o alquilar rápidamente?<br/> Somos tu solución!
           </p>
           <a href="#contact" className="btn-primary inline-block">
