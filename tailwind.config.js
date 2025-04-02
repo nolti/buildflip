@@ -6,7 +6,7 @@ export default {
     extend: {
       colors: {
         // Updated Primary Color
-        primary: '#6750A4', // New primary color
+        primary: '#976ebf', // New primary color #6750A4
         secondary: '#f8f8f2', // Foreground
         dark: '#282a36', // Background
         draculacurrent: '#44475a', // Current Line
