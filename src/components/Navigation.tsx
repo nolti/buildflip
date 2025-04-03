@@ -58,9 +58,9 @@ export const Navigation = () => {
               aria-label="Toggle theme"
             >
               {theme === 'light' ? (
-                <Moon className="w-5 h-5 text-secondary" />
+                <Moon className="w-5 h-5 text-onsurface hover:text-onprimary" />
               ) : (
-                <Sun className="w-5 h-5 text-secondary" />
+                <Sun className="w-5 h-5 text-secondary hover:text-draculayellow" />
               )}
             </button>
             <button
