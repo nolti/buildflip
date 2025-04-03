@@ -14,7 +14,7 @@ export const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-mdsecondary dark:bg-dark z-50 shadow-sm transition-colors duration-200">
+    <nav className="fixed w-full bg-surface dark:bg-dark z-50 shadow-sm transition-colors duration-200">
       <div className="container py-4">
         <div className="flex items-center justify-between">
           <a href="#" className="text-2xl font-bold text-onsurface dark:text-primary">
