@@ -54,17 +54,17 @@ export const Navigation = () => {
           <div className="md:hidden flex items-center gap-4">
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-lg hover:bg-dracula-current transition-colors"
+              className="p-2 rounded-lg hover:bg-cyanlight dark:hover:bg-primary transition-colors"
               aria-label="Toggle theme"
             >
               {theme === 'light' ? (
                 <Moon className="w-5 h-5 text-onsurface hover:text-onprimary" />
               ) : (
-                <Sun className="w-5 h-5 text-secondary hover:text-draculayellow" />
+                <Sun className="w-5 h-5 text-secondary hover:text-onsecondary" />
               )}
             </button>
             <button
-              className="text-secondary"
+              className="text-onsurface dark:text-primary"
               onClick={() => setIsOpen(!isOpen)}
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -74,13 +74,13 @@ export const Navigation = () => {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden absolute top-full left-0 w-full bg-[#282a36] border-t border-dracula-current">
+          <div className="md:hidden absolute top-full left-0 w-full bg-[#282a36] border-t border-draculacurrent">
             <div className="container py-4 flex flex-col space-y-4">
               {menuItems.map((item) => (
                 <a
                   key={item.label}
                   href={item.href}
-                  className="text-secondary hover:text-primary transition-colors"
+                  className="text-xl text-secondary hover:text-primary transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}
@@ -88,7 +88,7 @@ export const Navigation = () => {
               ))}
               <a
                 href="#contact"
-                className="btn-primary text-center"
+                className="text-xl font-bold btn-primary text-center"
                 onClick={() => setIsOpen(false)}
               >
                 Contactanos
