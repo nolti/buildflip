@@ -125,13 +125,13 @@ export const Projects = () => {
   return (
     <>
       <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
-      <section id="projects" className="py-12">
+      <section id="projects" className="py-12 bg-surfacelight dark:bg-dark">
         <div className="container">
-          <div className="flex flex-col items-start mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
+          <div className="flex flex-col items-start mb-2">
+            <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-draculacianlight">
               Nuestros Proyectos
             </h2>
-            <p className="text-gray-600 dark:text-gray-300 text-lg">
+            <p className="text-draculaselect dark:text-draculacianlightgrey mb-4 text-lg">
               Propiedades transformadas, resultados reales
             </p>
           </div>

@@ -26,7 +26,7 @@ export const FloatingChat = () => {
           </p>
           <button
             onClick={handleWhatsAppClick}
-            className="bg-[#00A884] text-[#111B21] w-full flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium hover:bg-[#00A884]/90 transition-all duration-300 hover:scale-105"
+            className="bg-whatsapp text-[#111B21] w-full flex items-center justify-center gap-2 px-6 py-3 rounded-lg font-medium hover:bg-whatsapp/90 transition-all duration-300 hover:scale-105"
           >
             <MessageCircle size={20} />
             Chatear por WhatsApp
@@ -35,7 +35,7 @@ export const FloatingChat = () => {
       ) : (
         <button
           onClick={() => setIsOpen(true)}
-          className="bg-[#00A884] text-[#111B21] p-4 rounded-full shadow-lg hover:bg-[#00A884]/90 transition-all duration-300 hover:scale-110"
+          className="bg-whatsapp text-[#111B21] p-4 rounded-full shadow-lg hover:bg-whatsapp/90 transition-all duration-300 hover:scale-110"
         >
           <MessageCircle size={24} />
         </button>

@@ -35,12 +35,12 @@ export const Services = () => {
   return (
     <>
       <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
-      <section id="services" className="py-12 bg-violet-200 dark:bg-[#282a36]">
+      <section id="services" className="py-12 bg-surfacelight dark:bg-dark">
         <div className="container">
-          <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-cyanlight">
+          <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-draculacianlight">
             Nuestro Proceso
           </h2>
-          <p className="text-draculaselect dark:text-draculacyangrey mb-8 text-lg">
+          <p className="text-draculaselect dark:text-draculacianlightgrey mb-6 text-lg">
             Guía paso a paso para maximizar tu inversión
           </p>
 
@@ -53,7 +53,7 @@ export const Services = () => {
                   className={`rounded-3xl transition-all duration-300 cursor-pointer ${
                     expandedIndex === index
                       ? 'bg-primary shadow-[0_8px_0_0] shadow-primary/50'
-                      : 'bg-gray-100 dark:bg-[#44475a] hover:bg-gray-200 dark:hover:bg-[#44475a]/80'
+                      : 'bg-gray-100 dark:bg-draculacianlight/20 hover:bg-gray-200 dark:hover:bg-draculacianlight/30'
                   }`}
                   onClick={() => setExpandedIndex(index)}
                   initial={false}
@@ -63,23 +63,23 @@ export const Services = () => {
                       <div className="flex items-center gap-4">
                         <span className={`text-3xl font-bold ${
                           expandedIndex === index
-                            ? 'text-[#282a36]'
-                            : 'text-gray-900 dark:text-white'
+                            ? 'text-dark'
+                            : 'text-2xl text-gray-900 dark:text-draculacianlight'
                         }`}>
                           {service.number}
                         </span>
                         <h3 className={`text-2xl font-semibold ${
                           expandedIndex === index
-                            ? 'text-[#282a36]'
-                            : 'text-gray-900 dark:text-white'
+                            ? 'text-dark'
+                            : 'text-gray-900 dark:text-draculacianlight'
                         }`}>
                           {service.title}
                         </h3>
                       </div>
-                      <div className={`w-8 h-8 rounded-full flex items-center justify-center ${
+                      <div className={`w-6 h-6 rounded-full flex items-center justify-center ${
                         expandedIndex === index
-                          ? 'bg-[#282a36]'
-                          : 'bg-gray-900 dark:bg-white'
+                          ? 'bg-onsecondary'
+                          : 'bg-gray-900 dark:bg-draculacianlight'
                       }`}>
                         {expandedIndex === index ? (
                           <Minus className="w-4 h-4 text-primary" />

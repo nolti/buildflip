@@ -43,13 +43,13 @@ const team = [
 
 export const Team = () => {
   return (
-    <section id="team" className="py-12 bg-gray-50 dark:bg-[#1a1b23]">
+    <section id="team" className="py-12 bg-surfacelight dark:bg-dark">
       <div className="container">
-        <div className="flex flex-col items-start mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900 dark:text-white">
+        <div className="flex flex-col items-start mb-2">
+          <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-draculacianlight">
             Nuestro Equipo
           </h2>
-          <p className="text-gray-700 dark:text-gray-300 text-lg">
+          <p className="text-draculaselect dark:text-draculacianlightgrey mb-5 text-lg">
             Conocé a los expertos detrás de cada transformación exitosa
           </p>
         </div>
@@ -77,7 +77,7 @@ export const Team = () => {
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute top-0 right-0 w-10 h-10 bg-cyanlight rounded-full flex items-center justify-center transition-transform hover:scale-110"
+                  className="absolute top-0 right-0 w-10 h-10 bg-draculacianlightlight rounded-full flex items-center justify-center transition-transform hover:scale-110"
                 >
                   <LinkedInIcon />
                 </a>
