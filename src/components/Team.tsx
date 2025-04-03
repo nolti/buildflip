@@ -77,7 +77,7 @@ export const Team = () => {
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute top-0 right-0 w-10 h-10 bg-linkedin rounded-full flex items-center justify-center transition-transform hover:scale-110"
+                  className="absolute top-0 right-0 w-10 h-10 bg-cyanlight rounded-full flex items-center justify-center transition-transform hover:scale-110"
                 >
                   <LinkedInIcon />
                 </a>

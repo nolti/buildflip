@@ -37,7 +37,7 @@ export const Services = () => {
       <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
       <section id="services" className="py-12 bg-violet-200 dark:bg-[#282a36]">
         <div className="container">
-          <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-draculacyan">
+          <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-cyanlight">
             Nuestro Proceso
           </h2>
           <p className="text-draculaselect dark:text-draculacyangrey mb-8 text-lg">

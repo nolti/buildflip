@@ -14,10 +14,10 @@ export const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-[#282a36] z-50 shadow-sm transition-colors duration-200">
+    <nav className="fixed w-full bg-mdsecondary dark:bg-dark z-50 shadow-sm transition-colors duration-200">
       <div className="container py-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="text-2xl font-bold text-primary">
+          <a href="#" className="text-2xl font-bold text-onsurface dark:text-primary">
             BuildFlip
           </a>
 
@@ -27,7 +27,7 @@ export const Navigation = () => {
               <a
                 key={item.label}
                 href={item.href}
-                className="text-secondary hover:text-primary transition-colors"
+                className="transition-colors text-onsurface hover:text-onprimary dark:text-secondary dark:hover:text-primary"
               >
                 {item.label}
               </a>
@@ -35,17 +35,19 @@ export const Navigation = () => {
             <a href="#contact" className="btn-primary">
               Contactanos
             </a>
+
             <button
               onClick={toggleTheme}
               className="p-2 rounded-lg hover:bg-dracula-current transition-colors"
               aria-label="Toggle theme"
             >
               {theme === 'light' ? (
-                <Moon className="w-5 h-5 text-secondary" />
+                <Moon className="w-5 h-5 text-onsurface hover:text-onprimary" />
               ) : (
-                <Sun className="w-5 h-5 text-secondary" />
+                <Sun className="w-5 h-5 text-secondary hover:text-draculayellow" />
               )}
             </button>
+
           </div>
 
           {/* Mobile Menu Button */}

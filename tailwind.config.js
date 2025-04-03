@@ -13,7 +13,7 @@ export default {
         draculaselect: '#44475a', // Selection
         draculacomment: '#6272a4', // Comment
         draculacyan: '#8be9fd',
-        draculacyanlight: '#ADD5DD',
+        cyanlight: '#a2c8ee',
         draculacyangrey: '#96ACB1',
         draculagreen: '#50fa7b', // Green
         draculaorange: '#ffb86c', // Orange
@@ -26,7 +26,19 @@ export default {
         mdsecondary: '#CDC2DB',
         mdonsecondary: '#342D40', 
         mdsecondarycontainer: '#342D40',
-        linkedin: '#a2c8ee'
+        surface: '#DED8E0',
+        onprimary: '#38265C',
+        onsecondary: '#342D40',
+        onsurface: '#36343A'
+
+        /* 
+        Background: #2C2C2C (slate gray)
+        Primary Text: #E4E4E4 (light gray)
+        Accent 1: #A8DADC (light cyan)
+        Accent 2: #FFC1CC (soft pink)
+        Button/CTA: #B39CD0 (lavender)
+        */
+
       },
       fontFamily: {
         sans: ['Ubuntu', 'sans'],
