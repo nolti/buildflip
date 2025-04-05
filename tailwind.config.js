@@ -8,6 +8,7 @@ export default {
         // Updated Primary Color
         primary: '#bd93f9', // New primary color #6750A4 #9877ba
         secondary: '#f8f8f2', // Foreground
+        secondarypurple: '#4B4358',
         dark: '#282a36', // Background
         draculacurrent: '#44475a', // Current Line
         draculaselect: '#44475a', // Selection
@@ -24,19 +25,24 @@ export default {
         mdprimary: '#D3BCFD',
         mdonprimary: '#38265C',
         mdsecondary: '#CDC2DB',
-        mdonsecondary: '#342D40', 
-        mdsecondarycontainer: '#342D40',
         surface: '#DED8E0',
         surfacelight: '#e5e5e5',
         onsurface: '#36343A',
         onprimary: '#38265C',
+        primarycontainer: '#EBDDFF',
         onsecondary: '#342D40',
-        whatsapp: '#00A884'
-        
-
+        whatsapp: '#00A884',
+        graylight: '#E4E4E4',
+        outline: '#7A757F',
+        online: '#635B70',
+        primaryfixed: '#D3BCFD',
+        greyline: '#CBC4CF',
+        graycian: '#3f4e65',
+        graycianhover: '#4e617c',
+        airbnb:'#E04A50'        
         /* 
         Background: #2C2C2C (slate gray)
-        Primary Text: #E4E4E4 (light gray)
+        Primary Text: #E4E4E4 ()
         Accent 1: #A8DADC (light cian)
         Accent 2: #FFC1CC (soft pink)
         Button/CTA: #B39CD0 (lavender)

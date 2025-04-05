@@ -47,9 +47,7 @@ export const Hero = () => {
           <p className="text-2x1 sm:text-2xl md:text-2x1 mb-4 text-secondary">
             ¿Querés renovar para vender o alquilar rápidamente?<br /> Somos tu solución!
           </p>
-          <a href="#contact" className="btn-primary inline-block">
-            Contactanos
-          </a>
+          <a href="#contact" className="btn-primary inline-block">OBTENER ANÁLISIS GRATIS</a>
         </div>
       </div>
     </section>

@@ -18,7 +18,7 @@ const TikTokIcon = () => (
 
 export const Footer = () => {
   return (
-    <footer className="border-t border-gray-200 dark:border-gray-800 bg-surface dark:bg-dark z-50 shadow-sm transition-colors duration-200" >
+    <footer className="border-t border-greyline bg-surface z-50 shadow-sm transition-colors duration-200 dark:bg-dark dark:border-online" >
       <div className="container py-6">
         <div className="flex flex-wrap items-center justify-between gap-4">
           <div className="text-gray-700 dark:text-gray-400">

@@ -14,7 +14,7 @@ export const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed w-full bg-surface dark:bg-dark z-50 shadow-sm transition-colors duration-200">
+    <nav className="fixed w-full bg-surface border-t border-b border-greyline z-50 shadow-sm transition-colors duration-200 dark:bg-dark dark:border-online">
       <div className="container py-4">
         <div className="flex items-center justify-between">
           <a href="#" className="text-2xl font-bold text-onsurface dark:text-primary">
@@ -44,7 +44,7 @@ export const Navigation = () => {
               {theme === 'light' ? (
                 <Moon className="w-5 h-5 text-onsurface hover:text-onprimary" />
               ) : (
-                <Sun className="w-5 h-5 text-secondary hover:text-draculayellow" />
+                <Sun className="w-5 h-5 text-secondary hover:text-primary" />
               )}
             </button>
 

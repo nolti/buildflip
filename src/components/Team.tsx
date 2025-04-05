@@ -43,7 +43,7 @@ const team = [
 
 export const Team = () => {
   return (
-    <section id="team" className="py-12 bg-surfacelight dark:bg-dark">
+    <section id="team" className="py-12 bg-surfacelight dark:bg-onsecondary">
       <div className="container">
         <div className="flex flex-col items-start mb-2">
           <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-draculacianlight">
@@ -58,7 +58,7 @@ export const Team = () => {
           {team.map((member, index) => (
             <motion.div
               key={index}
-              className="bg-indigo-100 dark:bg-[#282a36] rounded-3xl p-6 border-2 border-mdsecondarycontainer/50 dark:border-primary shadow-[-2px_8px_0_0] shadow-mdsecondarycontainer/70 dark:shadow-primary-dark/70"
+              className="p-6 border-2 rounded-3xl shadow-[-2px_6px_0_0] shadow-primary/50 bg-surface border-primary/90 dark:bg-dark dark:border-primary/70"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
@@ -77,17 +77,17 @@ export const Team = () => {
                   href={member.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="absolute top-0 right-0 w-10 h-10 bg-draculacianlightlight rounded-full flex items-center justify-center transition-transform hover:scale-110"
+                  className="absolute top-0 right-0 w-10 h-10 bg-draculacianlight rounded-full flex items-center justify-center transition-transform hover:scale-110"
                 >
                   <LinkedInIcon />
                 </a>
               </div>
 
-              <h3 className="text-xl font-semibold mb-2 text-mdonsecondary dark:text-white">
+              <h3 className="text-xl font-semibold mb-2 text-onsecondary dark:text-white">
                 {member.name}
               </h3>
               <p className="text-mdonprimary dark:text-primary font-medium mb-4">{member.role}</p>
-              <p className="text-mdonsecondary dark:text-gray-300 text-sm">
+              <p className="text-onsecondary dark:text-gray-300 text-sm">
                 {member.description}
               </p>
             </motion.div>

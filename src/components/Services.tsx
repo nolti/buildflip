@@ -35,7 +35,7 @@ export const Services = () => {
   return (
     <>
       <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
-      <section id="services" className="py-12 bg-surfacelight dark:bg-dark">
+      <section id="services" className="py-12 bg-surfacelight dark:bg-onsecondary">
         <div className="container">
           <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-draculacianlight">
             Nuestro Proceso
@@ -53,7 +53,7 @@ export const Services = () => {
                   className={`rounded-3xl transition-all duration-300 cursor-pointer ${
                     expandedIndex === index
                       ? 'bg-primary shadow-[0_8px_0_0] shadow-primary/50'
-                      : 'bg-gray-100 dark:bg-draculacianlight/20 hover:bg-gray-200 dark:hover:bg-draculacianlight/30'
+                      : 'bg-primaryfixed hover:bg-primaryfixed/50 dark:bg-graycian dark:hover:bg-graycianhover'
                   }`}
                   onClick={() => setExpandedIndex(index)}
                   initial={false}
@@ -64,14 +64,14 @@ export const Services = () => {
                         <span className={`text-3xl font-bold ${
                           expandedIndex === index
                             ? 'text-dark'
-                            : 'text-2xl text-gray-900 dark:text-draculacianlight'
+                            : 'text-2xl text-secondarypurple dark:text-draculacianlight'
                         }`}>
                           {service.number}
                         </span>
                         <h3 className={`text-2xl font-semibold ${
                           expandedIndex === index
                             ? 'text-dark'
-                            : 'text-gray-900 dark:text-draculacianlight'
+                            : 'text-secondarypurple dark:text-draculacianlight'
                         }`}>
                           {service.title}
                         </h3>
@@ -79,7 +79,7 @@ export const Services = () => {
                       <div className={`w-6 h-6 rounded-full flex items-center justify-center ${
                         expandedIndex === index
                           ? 'bg-onsecondary'
-                          : 'bg-gray-900 dark:bg-draculacianlight'
+                          : 'bg-secondarypurple dark:bg-draculacianlight'
                       }`}>
                         {expandedIndex === index ? (
                           <Minus className="w-4 h-4 text-primary" />
@@ -179,7 +179,8 @@ export const Services = () => {
           </div>
         </div>
       </section>
-      <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
+      {/* Divisor gradient */}
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-primary/50 from-transparent"></div>
     </>
   );
 };

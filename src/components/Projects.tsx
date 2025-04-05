@@ -124,8 +124,7 @@ export const Projects = () => {
 
   return (
     <>
-      <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
-      <section id="projects" className="py-12 bg-surfacelight dark:bg-dark">
+      <section id="projects" className="py-12 bg-surfacelight dark:bg-onsecondary">
         <div className="container">
           <div className="flex flex-col items-start mb-2">
             <h2 className="text-3xl md:text-3xl font-bold mb-1 text-gray-700 dark:text-draculacianlight">
@@ -163,7 +162,8 @@ export const Projects = () => {
           </div>
         </div>
       </section>
-      <div className="h-px bg-draculapurple dark:bg-draculaselect w-full" />
+      {/* Divisor gradient */}
+      <div className="h-px w-full bg-gradient-to-r from-transparent via-primary/50 from-transparent"></div>
 
       <Modal
         isOpen={selectedProject !== null}
